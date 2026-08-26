@@ -1,0 +1,37 @@
+generated: '2026-08-26'
+method: probed
+source: https://nervonik.com/
+note: >-
+  All five canonical /.well-known/ paths were probed on the single host Nervonik operates
+  (nervonik.com). Every one returned HTTP 404 with a WordPress HTML 404 body, so NO
+  WellKnown or SecurityTxt pointer is emitted in apis.yml — this file records a measured
+  absence, not a served surface. No api./developer./docs. subdomain resolves (DNS NXDOMAIN),
+  so there is no second host to probe.
+hosts:
+- host: nervonik.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+summary:
+  hosts_probed: 1
+  documents_probed: 7
+  documents_served: 0

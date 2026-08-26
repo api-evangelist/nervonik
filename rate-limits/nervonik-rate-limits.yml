@@ -1,0 +1,12 @@
+generated: '2026-08-26'
+method: searched
+source: https://nervonik.com/
+note: >-
+  No rate limits are documented because Nervonik publishes no API. STEP 0b contract
+  discovery found no OpenAPI/Swagger, no GraphQL endpoint, no MCP server and no A2A agent
+  card on the only host the company operates, and no api./developer./docs. subdomain
+  resolves. There is therefore no runtime surface to emit X-RateLimit-*/RateLimit-*/
+  Retry-After headers. Recorded as a measured zero.
+limit_count: 0
+limits: []
+response_headers: []
