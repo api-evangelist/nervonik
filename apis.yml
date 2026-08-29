@@ -12,6 +12,17 @@ description: 'Nervonik, Inc. is a clinical-stage medical device company in Los A
   $13M Series A in March 2025. Nervonik publishes no developer program, public API,
   SDK, or machine-readable API contract; its public web surface is a WordPress marketing
   and investor-relations site.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://nervonik.com/wp-content/uploads/2026/01/Nervonik-Featured-1-80.jpg
 url: https://raw.githubusercontent.com/api-evangelist/nervonik/refs/heads/main/apis.yml
 x-type: company
