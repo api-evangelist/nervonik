@@ -1,0 +1,21 @@
+{
+  "repo": "nervonik",
+  "feeds": [
+    {
+      "source": "https://nervonik.com/",
+      "feed_url": "https://nervonik.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://nervonik.com/blog/",
+      "feed_url": "https://nervonik.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-30T22:33:40Z"
+}
